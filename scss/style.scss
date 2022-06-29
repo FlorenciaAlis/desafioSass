@@ -1,33 +1,19 @@
 //comentario en scss
 /*comentario en scss y en css*/
 
-
-//import 
-
-@import "utilities/variables";
-
-//nesting
-
-
-
-header{
-    background-color: $color-principal;
-    width: $medida-principal + 150;
-    box-shadow: 1px 1px black;
-    h1{ 
-        color:violet;
-        font-size: 2rem;
-        text-shadow: 1px 1px pink;
-    }
-    .menu{
-        width: 150px;
-        background-color: black;
-        ul{
-            list-style: none;
-            li{
-                font-size: 1rem;
-                color: purple;
-            }
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 60px 0;
+    li{
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            background-color: salmon;
         }
     }
 }
+h1{ font-size: red;}
+
